@@ -80,7 +80,6 @@
 
 /*who*/
 .who{
-    
     width: 100%;
     padding: 100px 0 0 0;
 }
@@ -107,10 +106,33 @@
     color: gray;
 }
 .product{
-    border-left: 1px solid gray;
+    border-left: 1px solid rgb(183, 183, 183);
 }
 .years{
-    border-left: 1px solid gray;
+    border-left: 1px solid rgb(183, 183, 183);
+}
+.exp-container{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    top: -170px;
+    left: 30px;
+}
+.exp-container-content{
+    padding: 20px 0;
+}
+.exp-container-content h1{
+    color: #009e7e;
+    font-size: 45px;
+    font-weight: 700;
+}
+.exp-container-content p{
+    color: gray;
+    font-size: 15px;
+    font-weight: 700;
 }
 
 
@@ -125,11 +147,43 @@
         margin: 15px 0;
     }
     .logo {
-        width: 280px;
+        width: 290px;
     }
     .who h2 {
         font-size: 30px;
         font-weight: 700;
+    }
+    .exp-container{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-color: white;
+        border-radius: 10px;
+        position: relative;
+        top: -20px;
+        left: 40px;
+        width: 80%;
+    }
+    .exp-container-content {
+        padding: 10px 0;
+    }
+    .customer{
+        width: 50%;
+    }
+    .product{
+        width: 50%;
+    }
+    .product{
+        border-left: 1px dotted rgb(183, 183, 183);
+    }
+    .years{
+        border-left: none;
+    }
+    .intro-img {
+        border-radius: 10px;
+        width: 100%;
+        position: relative;
+        top: -30px;
     }
     
    
