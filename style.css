@@ -78,6 +78,41 @@
     color: white;
 }
 
+/*who*/
+.who{
+    
+    width: 100%;
+    padding: 100px 0 0 0;
+}
+.pharmacist{
+    background-color: rgb(223, 223, 223);
+}
+.intro{
+    padding: 30px 30px;
+}
+.intro-img{
+    border-radius: 10px;
+    width: 100%;
+}
+.who h6{
+    color: #009e7e;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+.who h2{
+    font-size: 45px;
+    font-weight: 700;
+}
+.who p{
+    color: gray;
+}
+.product{
+    border-left: 1px solid gray;
+}
+.years{
+    border-left: 1px solid gray;
+}
+
 
 
 
@@ -90,7 +125,14 @@
         margin: 15px 0;
     }
     .logo {
-        width: 300px;
+        width: 280px;
     }
+    .who h2 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+    
+   
+    
     
 }
