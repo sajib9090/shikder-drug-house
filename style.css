@@ -232,6 +232,115 @@
     flex-wrap: wrap;
     justify-content: space-between;
 }
+.promo-head{
+    margin: 50px 0;
+}
+.promo{
+    height: 90vh;
+}
+.promo-box{
+    border-radius: 5px;
+}
+.promo-box h5{
+    font-weight: 600;
+}
+.promo-box p{
+    color: gray;
+}
+.promo-box button{
+    color: white;
+    background-color: #009E7F;
+    border: none;
+    border-radius: 5px;
+    padding: 4px 15px;
+    transition: 1s;
+}
+.promo-box button:hover{
+    color: black;
+    background-color: rgb(207, 207, 207);
+}
+.promo-box1{
+   width: 360px;
+   background-color: #CEEFFF;
+}
+.promo-box1 img{
+    width: 65%;
+}
+.promo-box1-content{
+    padding: 30px 20px;
+}
+.promo-box1-content button{
+    border: none;
+    padding: 3px 15px;
+    background-color: #656DFF;
+    color: white;
+    border-radius: 20px;
+    cursor: default;
+}
+.promo-box1-content h4{
+    font-weight: 600;
+}
+.promo-box1-content p{
+    color: gray;
+}
+.promo-box2{
+    margin-left: 20px;
+}
+.n95-daily{
+    height: 44vh;
+}
+
+.n95-box{
+    width: 373px;
+    margin-right: 5px;
+    background-image: url(images/promo/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.n95-box:hover button{
+    color: black;
+    background-color: rgb(207, 207, 207);
+    zoom: 110%;
+    overflow: hidden;
+}
+.n95-box-content{
+    padding: 30px 20px;
+}
+.daily-box{
+    width: 373px;
+    margin-left: 5px;
+    background-image: url(images/promo/3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.daily-box:hover button{
+    color: black;
+    background-color: rgb(207, 207, 207);
+    zoom: 110%;
+    overflow: hidden;
+}
+.daily-box-content{
+    padding: 30px 20px;
+    text-align: right;
+}
+.natural{
+    height: 44vh;
+    margin-top: 10px;
+    background-image: url(images/promo/4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.natural:hover button{
+    color: black;
+    background-color: rgb(207, 207, 207);
+    zoom: 110%;
+    overflow: hidden;
+}
+.natural-box-content{
+    padding: 60px 60px;
+}
 
 
 @media (max-width: 477px) {
@@ -309,6 +418,29 @@
     }
     .latest-product-content {
         width: 180px;
+    }
+    .promo-box1{
+        width:100%;
+     }
+     .promo-box2 {
+        margin-left: 0px;
+    }
+    .daily-box{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .n95-box {
+        width: 100%;
+        margin-right: 0px;
+        margin-top: 10px;
+    }
+    .natural {
+        height: 24vh;
+        margin-top: 10px;
+        background-image: url(images/promo/4.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     
 }
