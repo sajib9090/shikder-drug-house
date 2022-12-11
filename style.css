@@ -528,6 +528,62 @@
     padding: 7px 15px;
     margin: 5px 0;
 }
+.upper-footer{
+    position: relative;
+    top: 350px;
+}
+.upper-footer-col-content{
+    padding: 30px 0px;
+}
+.upper-footer-col p{
+    color: gray;
+}
+.brand-logo{
+    width: 100%;
+}
+.payment-icon{
+    width: 100%;
+    margin-top: 30px;
+}
+.company-nav{
+    display: flex;
+    flex-direction: column;
+}
+.company-nav h5{
+    font-weight: 600;
+}
+.company-nav a{
+    text-decoration: none;
+    color: gray;
+    padding: 3px 0;
+}
+.company-nav a:hover{
+    color: #009E7F;
+}
+.footer{
+    height: 10vh;
+}
+.footer-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.social-icon a {
+    text-decoration: none;
+    color: #009E7F;
+    padding: 0 10px;
+}
+.social-icon a:hover{
+    color: #656DFF;
+
+}
+.upper-footer-all{
+    display: flex;
+    flex-direction: row;
+}
+
 /*animated text*/
 .animated-text {
     text-align: center;
@@ -553,7 +609,7 @@
         color: #009E7F;
     }
     .logo{
-        width: 220px;
+        width: 200px;
     }
     .navbig{
         display: none;
@@ -640,7 +696,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        top: 22px;
+        top: 20px;
     }
     .why-choose-us-row {
         position: relative;
@@ -662,6 +718,10 @@
         background-color: #009E7F;
         position: relative;
         top: 900px;    
+    }
+    .what-say-content h1 {
+        font-size: 25px;
+        font-weight: 600;
     }
     .slideshow-container {
         max-width: 300px;
@@ -693,6 +753,28 @@
     }
     .signup-row{
         height: 40vh;
-
+    }
+    .upper-footer{
+        position: relative;
+        top: 1160px;
+    }
+    .upper-footer-all{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .company-nav a{
+        padding: 2px 0;
+    }
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+    }
+    .social-icon{
+        padding-top: 10px;
+    }
+    .support{
+        padding-left: 100px;
     }
 }
