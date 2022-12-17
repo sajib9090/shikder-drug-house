@@ -1,0 +1,135 @@
+.about-us{
+    height: 60vh;
+    width: 100%;
+    background-image: url(images/aboutus.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-us-content{
+    align-items: center;
+    text-align: center;
+    padding-top: 20vh;
+    color: rgb(255, 255, 255);
+}
+.about-us-content h1{
+    font-weight: 800;
+    font-size: 55px;
+}
+.happy{
+    position: relative;
+    top: -13.125rem;
+}
+.pharmacy-col{
+    background-color: rgb(244, 244, 244);
+    margin-right: 10px;
+    width: 32%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgb(221, 221, 221);
+}
+.pharmacy-col-schedule{
+    width: 32%;
+    border-radius: 10px;
+    background-color: #009E7E;
+    box-shadow: 10px 10px 10px rgb(221, 221, 221);
+}
+.pharmacy{
+    justify-content: space-evenly;
+}
+.pharmacy-store-img img{
+    width: 100%;
+}
+.pharmacy-store-content{
+    padding: 20px 0;
+    text-align: center;
+}
+.pharmacy-store-content h4{
+    color: rgb(69, 69, 69);
+    font-size: 30px;
+    margin-top: 10px;
+}
+.pharmacy-store-content p{
+    font-size: 18px;
+    color: gray;
+}
+.pharmacy-store-content button{
+    border: none;
+    border-radius: 5px;
+    padding: 8px 30px;
+    transition: 1s ease-in-out;
+    margin: 10px 0;
+}
+.pharmacy-store-content button:hover{
+    background-color: rgb(208, 208, 208);
+    color: black;
+}
+.pharmacy-col-schedule-content{
+    padding: 40px 40px;
+}
+.pharmacy-col-schedule-content h3{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  td {
+    text-align: left;
+    padding: 10px;
+  }
+  tr {
+    border-bottom: 1px dotted rgb(185, 185, 185);
+  }
+  tr:last-child {
+    border: none;
+  }
+
+  
+ 
+
+
+
+@media (max-width: 799px) {
+    .about-us {
+        height: 40vh;
+    }
+    .about-us-content {
+        padding-top: 15vh;
+    }
+    .happy {
+        position: relative;
+        top: 0rem;
+    }
+    .pharmacy-col {
+        background-color: rgb(244, 244, 244);
+        margin-right: 0px;
+        margin-bottom: 30px;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px rgb(221, 221, 221);
+    }
+    .pharmacy {
+        margin-top: 80px;
+    }
+    .pharmacy > * {
+        flex-shrink: 0;
+        width: 100%;
+        max-width: 100%;
+        padding-right: calc(var(--bs-gutter-x) * 0.0);
+        padding-left: calc(var(--bs-gutter-x) * 0.0);
+        margin-top: var(--bs-gutter-y);
+    }
+    
+}
+
+
+@media screen and (max-width: 488px) {
+
+}

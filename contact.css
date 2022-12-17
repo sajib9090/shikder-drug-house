@@ -1,0 +1,51 @@
+.contact-us{
+    height: 60vh;
+    width: 100%;
+    background-image: url(images/service.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact-us::before{
+    background-color: #6565657e;
+    content: "";
+    height: 70vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.contact-us-content{
+    align-items: center;
+    text-align: center;
+    padding-top: 20vh;
+    color: rgb(255, 255, 255);
+    z-index: 20;
+    position: relative;
+}
+.contact-us-content h1{
+    font-weight: 800;
+    font-size: 55px;
+}
+
+
+
+@media (max-width: 799px) {
+    .contact-us {
+        height: 40vh;
+    }
+    .contact-us-content {
+        padding-top: 15vh;
+    }
+    .contact-us::before {
+        height: 47.5vh;
+    }
+    
+}
+
+@media (max-width: 488px) {
+    .contact-us::before {
+        height: 48.5vh;
+    }
+}
