@@ -1,0 +1,13 @@
+
+  
+/*animated text*/
+.animated-text {
+    text-align: center;
+    color:#fff;
+  }
+  
+  .animated-text { color:#fff; text-decoration: none;}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+}
