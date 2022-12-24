@@ -9,7 +9,7 @@
 .contact-us::before{
     background-color: #6565657e;
     content: "";
-    height: 70vh;
+    height: 76vh;
     width: 100%;
     position: absolute;
     top: 0;
@@ -28,6 +28,101 @@
     font-weight: 800;
     font-size: 55px;
 }
+.communication{
+    margin-top: 150px;
+}
+.letsTalk{
+    background-color: rgb(244, 244, 244);
+    box-shadow: 5px 5px 10px rgb(184, 184, 184);
+    border-radius: 8px;
+}
+.letsTalk-content{
+    padding: 50px 10px;
+}
+.letsTalk-content h6{
+    color: #009E7E;
+    font-size: 15px;
+    font-weight: 500;
+}
+.letsTalk-content h1{
+    font-weight: bold;
+}
+.address-content{
+    display: flex;
+    flex-direction: row;
+    padding: 20px 0;
+}
+.address-content i{
+    color: #009E7E;
+    font-size: 35px;
+}
+.address-content-details{
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
+.address-content-details h4{
+    font-weight: 600;
+    font-size: 20px;
+    color: gray;
+}
+.address-content-details p{
+    color: gray;
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
+.sendMessage{
+    
+    width: 56%;
+    background-color: rgb(244, 244, 244);
+    box-shadow: 5px 5px 10px rgb(184, 184, 184);
+    border-radius: 8px;
+    margin-left: 20px;
+}
+.sendMessage-content{
+    padding: 50px 10px;
+}
+.sendMessage-content h1{
+    font-weight: bold;
+}
+.sendMessage-content-form{
+    padding: 40px 0;
+}
+#name{
+    width: 45%;
+    height: 50px;
+    margin-top: 20px;
+}
+#phone{
+    width: 45%;
+    height: 50px;
+    margin-top: 20px;
+}
+#email{
+    width: 90.5%;
+    height: 50px;
+    margin-top: 15px;
+}
+#message{
+    width: 90.5%;
+    height: 100px;
+    margin-top: 15px;
+}
+#send-msg{
+    width: 90.5%;
+    height: 50px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s ease-in-out; 
+}
+#send-msg:hover{
+    color: black;
+    background-color: gainsboro;
+}
+.addressMap{
+    margin-top: 100px;
+}
 
 
 
@@ -41,6 +136,12 @@
     .contact-us::before {
         height: 47.5vh;
     }
+    .sendMessage {
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+   
     
 }
 

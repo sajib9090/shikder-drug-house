@@ -643,6 +643,21 @@ footer{
     color: rgb(165, 165, 165);
 }
 
+.disclaimer{
+    color: white;
+    background-color: #009E7E;
+    height: 6vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.disclaimer-sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+}
+
 
 
 
@@ -874,6 +889,12 @@ footer{
     align-items: center;
     padding: 30px 0;
 }
+.disclaimer-sec-frst{
+    padding-top: 12px;
+}
+.disclaimer-sec-scnd{
+    padding-top: 12px;
+}
 }
 @media screen and (max-width: 488px) {
     .ipt-brk{
@@ -1030,6 +1051,15 @@ footer{
     #footer-content small {
         text-align: center;
     }
+    .disclaimer-sec-scnd{
+        display: none;
+    }
+    .disclaimer {
+        height: 5vh;
+    }
+    .disclaimer-sec-frst {
+    padding-top: 5px;
+}
 
     
 }
